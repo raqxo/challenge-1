@@ -32,10 +32,11 @@
 	color: #fff;
 }
 
+/*
 .sidebar-brand h2 {
 	font-size: 1.5rem;
 }
-
+*/
 
 .sidebar-brand span {
 	display: inline-block;
@@ -123,7 +124,7 @@ header {
 	width: calc(100% - 345px);
 	top: 0;
 	z-index: 100;
-	transition: width 300ms;
+	transition: left 300ms;
 }
 
 header h2 {
@@ -132,6 +133,7 @@ header h2 {
 
 header label span {
 	font-size: 1.7rem;
+	padding-right: 1rem;
 }
 
 .search-wrapper {
@@ -173,7 +175,7 @@ header label span {
 }
 
 main {
-	margin-top: 85px;
+	margin-top: 75px;
 	padding: 2rem 1.5rem;
 	background: #f1f5f9;
 	min-height: calc(100vh - 90px);
@@ -195,6 +197,10 @@ main {
 	border-radius: 2px;
 }
 
+.card-single h2 {
+	font-size: 1.7rem;
+}
+
 .card-single div:last-child span {
 	color: var(--main-color);
 	font-size: 3rem;
@@ -204,22 +210,30 @@ main {
 	color: var(--text-grey);
 }
 
+/*
+.card-single:last-child {
+	background: 
+}
+*/
+
 .recent-grid {
 	margin-top: 3.5rem;
 	display: grid;
 	grid-gap: 2rem;
-	grid-template-columns: 65% auto;
+	grid-template-columns: 50% auto;
 
 }
 
 .card {
+	height: 375px;
 	background: #fff;
 	border-radius: 5px;
 
 }
 
-.card-header {
-	padding: 1rem;
+.card-header,
+.card-body {
+	padding: 0.5rem;
 }
 
 .card-header {
@@ -258,7 +272,7 @@ td {
 	color: #222;
 }
 
-.table-responsive {
+table .responsive {
 	width: 100%;
 	overflow-x: auto;
 }
@@ -298,7 +312,7 @@ td {
 	color: var(--main-color);
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 2600px) {
 	.sidebar {
 		width: 70px;
 	}
@@ -327,7 +341,6 @@ td {
 		left: 70px;
 	}
 
-	/*
 	.sidebar:hover {
 		width: 345px;
 		z-index: 200;
@@ -348,7 +361,6 @@ td {
 		display: inline;
 	}
 
-	*/
 }
 
 @media only screen and (max-width: 960px) {
@@ -370,11 +382,9 @@ td {
 		grid-template-columns: 100%;
 	}
 
-	/*
 	.search-wrapper {
 		display: none;
 	}
-	*/
 
 	.sidebar {
 		left: -100% !important;
