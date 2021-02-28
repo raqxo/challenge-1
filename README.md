@@ -3,6 +3,5 @@
 
 
 ## Welkom in mijn repo
-XT2 is mijn favoriete vak.
-De website die ik heb gemaakt is super mooi. 
+Ik heb een dashboard gemaakt voor SpaceX. 
 Je kan hem vinden op [https://raqxo.github.io/challenge-1/]
