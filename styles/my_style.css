@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 :root {
-	--main-color: #DD2F6E;
-	--color-dark: #1D2231;
-	--text-grey: #8390A2;
+	--main-color: #7649fe;
+	--color-dark: #1d1135;
+	--text-grey: #0c164f;
 }
 
 * {
@@ -217,7 +217,8 @@ main {
 */
 
 .recent-grid {
-	margin-top: 3.5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 	display: grid;
 	grid-gap: 2rem;
 	grid-template-columns: 50% auto;
@@ -310,6 +311,15 @@ table .responsive {
 	display: inline-block;
 	margin-left: .5rem;
 	color: var(--main-color);
+}
+
+.planeet {
+	color: var(--main-color);
+}
+
+.dashboard {
+	color: var(--main-color);
+
 }
 
 @media only screen and (max-width: 2600px) {
