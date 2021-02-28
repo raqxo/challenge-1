@@ -566,3 +566,27 @@ main {
 		font-size: 0.8rem;
 	}
 }
+
+@media only screen and (max-width: 380px) {
+	.cards {
+		grid-template-columns: 100%;
+	}
+
+	.recent-grid {
+		grid-template-columns: 100%;
+	}
+
+	.kleiner {
+		font-size: 1rem;
+	}
+
+	.tool button {
+		width: 115px;
+		height: 35px;
+		font-size: 0.8rem;
+	}
+
+	.card-tools {
+		padding: 0;
+	}
+}
